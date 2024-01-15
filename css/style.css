@@ -1,0 +1,888 @@
+
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+li {
+    list-style: none;
+}
+img {
+    width: 100%;
+    vertical-align: top;
+}
+/* wrap */
+#wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+/* header */
+#header {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+
+}
+#header .sliderWrap {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+#header .sliderWrap .slider {
+    position: relative;
+    align-items: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-repeat: no-repeat;
+
+}
+/* slider1 */
+#header .sliderWrap .slider.s1 {
+    background-image: url(../images/main01.jpg);
+}
+
+#header .sliderWrap .slider .text {
+    padding: 100px;
+    margin-top: 100px;
+    font-size: 70px;
+
+
+}
+#header .sliderWrap .slider .text p {
+    color: #fff;
+    font-family: ONE-Mobile-POP;
+
+}
+#header .sliderWrap .slider .text span {
+    color: #eb4b7d;
+    font-family: ONE-Mobile-POP;
+}
+#header .sliderWrap .slider .texta {
+    position: relative;
+    font-size: 18px;
+    padding-top: 20px;
+}
+#header .sliderWrap .slider .texta p {
+    font-family: NanumSquare;
+    color: #ffffff;
+    line-height: 1.2;
+    
+    
+}
+#header .sliderWrap .slider .texta span {
+    font-family: NanumSquare;
+    color: #5c5c5c; 
+}
+#header .sliderWrap .slider .btn {
+    align-items: center;   
+}
+#header .sliderWrap .slider .btn a {
+    font-size: 15px;
+    background-color: #eb4b7d;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+
+}
+#header .sliderWrap .slider .btn a:hover {
+    background-color: #eb4b7e77;
+}
+
+/* slider2 */
+#header .sliderWrap .slider.s2 {
+    background-image: url(../images/main02.jpg);
+
+}
+#header .sliderWrap .slider .textup {
+    padding: 100px;
+    margin-top: 100px;
+    font-size: 70px;
+
+
+}
+#header .sliderWrap .slider .textup em {
+    color: #fff;
+    font-family: ONE-Mobile-POP;
+    font-size: 50px;
+
+}
+#header .sliderWrap .slider .textup span {
+    color: #eb4b7d;
+    font-family: ONE-Mobile-POP;
+}
+#header .sliderWrap .slider .textb {
+    position: relative;
+    font-size: 20px;
+    padding-top: 20px;
+}
+#header .sliderWrap .slider .textb p {
+    font-family: NanumSquare;
+    color: #fff;
+    font-weight: bold;
+    
+}
+#header .sliderWrap .slider .textb span {
+    font-family: NanumSquare;
+    color: #5c5c5c; 
+}
+#header .sliderWrap .slider .btn {
+    align-items: center;
+
+    
+}
+#header .sliderWrap .slider .btn a {
+    font-size: 15px;
+    background-color: #eb4b7d;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+
+}
+#header .sliderWrap .slider .btn a:hover {
+    background-color: #eb4b7e77;
+}
+/* slider3 */
+#header .sliderWrap .slider.s3 {
+    background-image: url(../images/main03.jpg);
+
+}
+#header .sliderWrap .slider .textdown {
+    
+    display: inline-block;
+    padding: 100px;
+    margin-top: 100px;
+    font-size: 70px;
+
+
+}
+#header .sliderWrap .slider .textdown p {
+    color: #fff;
+    font-family: ONE-Mobile-POP;
+
+}
+#header .sliderWrap .slider .textdown span {
+    color: #6e4000;
+    font-family: ONE-Mobile-POP;
+}
+#header .sliderWrap .slider .textc {
+    position: relative;
+    font-size: 18px;
+    padding-top: 20px;
+
+}
+#header .sliderWrap .slider .textc p {
+    font-family: NanumSquare;
+    color: #6e4000;
+    line-height: 1.2;
+    
+    
+}
+#header .sliderWrap .slider .textc span {
+    font-family: NanumSquare;
+    color: #ffffff; 
+}
+#header .sliderWrap .slider .btna {
+    align-items: center;   
+}
+#header .sliderWrap .slider .btna a {
+    font-size: 15px;
+    background-color: #6e4000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+
+}
+#header .sliderWrap .slider .btna a:hover {
+    background-color: #6e40006b;
+}
+/* contents */
+#contents {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+#contents .text h1 {
+    font-family: ONE-Mobile-POP;
+    color: #6e4000;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+#contents .text span {
+    color: #eb4b7d;
+}
+#contents .img { 
+    width: 70%;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+/* account */
+#account {
+    width: 100%;
+    height: 750px;
+    background-color: #f7f7f7;
+
+}
+#account .text h1 {
+    font-family: ONE-Mobile-POP;
+    color: #6e4000;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+#account .text span {
+    color: #eb4b7d;
+
+}
+/* notice1 */
+#account .notice1 {
+    width: 100%;
+    height: 290px;
+    margin-top: 40px;
+    display: flex;
+
+
+}
+/* noticea */
+#account .notice1 .noticea {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+
+}
+#account .notice1 .noticea .noticeaimg {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#account .notice1 .noticea .text {
+    text-align: center;
+    padding-top: 15px;
+    font-family: ONE-Mobile-POP;
+    font-size: 15px;
+
+
+
+}
+#account .notice1 .noticea .text1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 1.6;
+
+}
+#account .notice1 .noticea .Price {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 900;
+}
+#account .notice1 .noticea .button {
+    text-align: center;
+    padding-top: 20px;
+
+}
+#account .notice1 .noticea .button a {
+    background-color: #eb4b7d;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 15px;
+    font-family: ONE-Mobile-POP;
+    color: #fff;
+
+}
+#account .notice1 .noticea .button a:hover {
+    border: 1px solid #eb4b7d;
+    color: #eb4b7d;
+    background-color: #eb4b7e00;
+}
+/* noticeb */
+#account .notice1 .noticeb {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#account .notice1 .noticeb .noticeaimg {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#account .notice1 .noticeb .text {
+    text-align: center;
+    padding-top: 15px;
+    font-family: ONE-Mobile-POP;
+    font-size: 15px;
+    
+}
+#account .notice1 .noticeb .text1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+#account .notice1 .noticeb .Price {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 900;
+}
+#account .notice1 .noticeb .button {
+    text-align: center;
+    padding-top: 20px;
+
+}
+#account .notice1 .noticeb .button a {
+    background-color: #eb4b7d;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 15px;
+    font-family: ONE-Mobile-POP;
+    color: #fff;
+}
+#account .notice1 .noticeb .button a:hover {
+    border: 1px solid #eb4b7d;
+    color: #eb4b7d;
+    background-color: #eb4b7e00;
+}
+/* noticec */
+#account .notice1 .noticec {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#account .notice1 .noticec .noticeaimg {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#account .notice1 .noticec .text {
+    text-align: center;
+    padding-top: 15px;
+    font-family: ONE-Mobile-POP;
+    font-size: 15px;
+    
+}
+#account .notice1 .noticec .text1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+#account .notice1 .noticec .Price {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 900;
+}
+#account .notice1 .noticec .button {
+    text-align: center;
+    padding-top: 20px;
+
+}
+#account .notice1 .noticec .button a {
+    background-color: #eb4b7d;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 15px;
+    font-family: ONE-Mobile-POP;
+    color: #fff;
+}
+#account .notice1 .noticec .button a:hover {
+    border: 1px solid #eb4b7d;
+    color: #eb4b7d;
+    background-color: #eb4b7e00;
+}
+/* noticed */
+#account .notice1 .noticed {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#account .notice1 .noticed .noticeaimg {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#account .notice1 .noticed .text {
+    text-align: center;
+    padding-top: 15px;
+    font-family: ONE-Mobile-POP;
+    font-size: 15px;
+    
+}
+#account .notice1 .noticed .text1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+#account .notice1 .noticed .Price {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 900;
+}
+#account .notice1 .noticed .button {
+    text-align: center;
+    padding-top: 20px;
+
+}
+#account .notice1 .noticed .button a {
+    background-color: #eb4b7d;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 15px;
+    font-family: ONE-Mobile-POP;
+    color: #fff;
+}
+#account .notice1 .noticed .button a:hover {
+    border: 1px solid #eb4b7d;
+    color: #eb4b7d;
+    background-color: #eb4b7e00;
+}
+/* noticee */
+#account .notice1 .noticee {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#account .notice1 .noticee .noticeaimg {
+    width: 62%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#account .notice1 .noticee .text {
+    text-align: center;
+    padding-top: 15px;
+    font-family: ONE-Mobile-POP;
+    font-size: 15px;
+    
+}
+#account .notice1 .noticee .text1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+#account .notice1 .noticee .Price {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 900;
+}
+#account .notice1 .noticee .button {
+    text-align: center;
+    padding-top: 20px;
+
+}
+#account .notice1 .noticee .button a {
+    background-color: #eb4b7d;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 15px;
+    font-family: ONE-Mobile-POP;
+    color: #fff;
+}
+#account .notice1 .noticee .button a:hover {
+    border: 1px solid #eb4b7d;
+    color: #eb4b7d;
+    background-color: #eb4b7e00;
+}
+/* notice2 */
+#account .notice2 {
+    display: flex;
+    width: 100%;
+    height: 290px;
+    margin-bottom: 10px;
+}
+/* noticef */
+#account .notice2 .noticef {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#account .notice2 .noticef .noticeaimg {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#account .notice2 .noticef .text {
+    text-align: center;
+    padding-top: 15px;
+    font-family: ONE-Mobile-POP;
+    font-size: 15px;
+    
+}
+#account .notice2 .noticef .text1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+#account .notice2 .noticef .Price {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 900;
+}
+#account .notice2 .noticef .button {
+    text-align: center;
+    padding-top: 20px;
+
+}
+#account .notice2 .noticef .button a {
+    background-color: #eb4b7d;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 15px;
+    font-family: ONE-Mobile-POP;
+    color: #fff;
+}
+#account .notice2 .noticef .button a:hover {
+    border: 1px solid #eb4b7d;
+    color: #eb4b7d;
+    background-color: #eb4b7e00;
+}
+/* noticeg */
+#account .notice2 .noticeg {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#account .notice2 .noticeg .noticeaimg {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#account .notice2 .noticeg .text {
+    text-align: center;
+    padding-top: 15px;
+    font-family: ONE-Mobile-POP;
+    font-size: 15px;
+    
+}
+#account .notice2 .noticeg .text1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+#account .notice2 .noticeg .Price {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 900;
+}
+#account .notice2 .noticeg .button {
+    text-align: center;
+    padding-top: 20px;
+
+}
+#account .notice2 .noticeg .button a {
+    background-color: #eb4b7d;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 15px;
+    font-family: ONE-Mobile-POP;
+    color: #fff;
+}
+#account .notice2 .noticeg .button a:hover {
+    border: 1px solid #eb4b7d;
+    color: #eb4b7d;
+    background-color: #eb4b7e00;
+}
+/* noticeh */
+#account .notice2 .noticeh {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#account .notice2 .noticeh .noticeaimg {
+    width: 63%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#account .notice2 .noticeh .text {
+    text-align: center;
+    padding-top: 15px;
+    font-family: ONE-Mobile-POP;
+    font-size: 15px;
+    
+}
+#account .notice2 .noticeh .text1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+#account .notice2 .noticeh .Price {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 900;
+}
+#account .notice2 .noticeh .button {
+    text-align: center;
+    padding-top: 20px;
+
+}
+#account .notice2 .noticeh .button a {
+    background-color: #eb4b7d;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 15px;
+    font-family: ONE-Mobile-POP;
+    color: #fff;
+}
+#account .notice2 .noticeh .button a:hover {
+    border: 1px solid #eb4b7d;
+    color: #eb4b7d;
+    background-color: #eb4b7e00;
+}
+/* noticei */
+#account .notice2 .noticei {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#account .notice2 .noticei .noticeaimg {
+    width: 63%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#account .notice2 .noticei .text {
+    text-align: center;
+    padding-top: 15px;
+    font-family: ONE-Mobile-POP;
+    font-size: 15px;
+    
+}
+#account .notice2 .noticei .text1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+#account .notice2 .noticei .Price {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 900;
+}
+#account .notice2 .noticei .button {
+    text-align: center;
+    padding-top: 20px;
+
+}
+#account .notice2 .noticei .button a {
+    background-color: #eb4b7d;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 15px;
+    font-family: ONE-Mobile-POP;
+    color: #fff;
+}
+#account .notice2 .noticei .button a:hover {
+    border: 1px solid #eb4b7d;
+    color: #eb4b7d;
+    background-color: #eb4b7e00;
+}
+/* noticej */
+#account .notice2 .noticej {
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#account .notice2 .noticej .noticeaimg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+#account .notice2 .noticej .text {
+    text-align: center;
+    padding-top: 15px;
+    font-family: ONE-Mobile-POP;
+    font-size: 15px;
+    
+}
+#account .notice2 .noticej .text1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+#account .notice2 .noticej .Price {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 13px;
+    font-weight: 900;
+}
+#account .notice2 .noticej .button {
+    text-align: center;
+    padding-top: 20px;
+
+}
+#account .notice2 .noticej .button a {
+    background-color: #eb4b7d;
+    border-radius: 20px;
+    text-align: center;
+    padding: 8px 15px;
+    font-family: ONE-Mobile-POP;
+    color: #fff;
+}
+#account .notice2 .noticej .button a:hover {
+    border: 1px solid #eb4b7d;
+    color: #eb4b7d;
+    background-color: #eb4b7e00;
+}
+/* icon */
+#icon {
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+
+}
+#icon .iconimg {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/iconbg.png);
+    background-size: cover;
+
+}
+#icon .con1 {
+    width: 35px;
+    height: 55px;
+    margin: 0 auto;
+    padding: 170px;
+    padding-top: 200px;
+    margin-left: 80px;  
+    display: flex;
+
+}
+#icon .con1text h1 {
+    font-size: 22px;
+    color: #eb4b7d;
+    font-weight: 900;
+    padding: 0 0 11px 20px;
+    font-family: ONE-Mobile-POP;
+
+}
+#icon .con1text p {
+    padding: 0 0 20px 20px;
+    width: 250px;
+    font-size: 13px;
+
+}
+#icon .con2 {
+    width: 43px;
+    height: 40px;
+    margin-top: -120px;
+    margin-left: 249px;
+    display: flex;
+
+}
+#icon .con2text h2 {
+    font-size: 22px;
+    color: #eb4b7d;
+    font-weight: 900;
+    padding: 0 0 11px 14px;
+    font-family: ONE-Mobile-POP;
+
+}
+#icon .con2text p {
+    padding: 0 0 20px 14px;
+    width: 250px;
+    font-size: 14px;
+
+}
+/* footer */
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: #f7f7f7;
+}
+#footer .footer1 {
+    width: 100%;
+    height: 50px;
+
+}
+#footer .footer1 ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+#footer .footer1 li {
+    border-right: 1px solid #a3a3a3;
+}
+#footer .footer1 li:last-child {
+    border-right: 0;
+}
+#footer .footer1 li a {
+    padding: 0 20px 0 20px;
+    
+}
+
+#footer .footer1 li a:hover {
+    text-decoration: underline;
+    color: #eb4b7d;
+}
+#footer .footer2 {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+}
